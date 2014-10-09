@@ -2,7 +2,8 @@
 # Overrides these options in the 
 
 # Overrides the default URL, needed for your atom feed and sitemap
-url: mlvirdi.com/jekyll
+url: mlvirdi.com
+httpprotocol: http
 
 # Hides your drafts and future posts
 future: false

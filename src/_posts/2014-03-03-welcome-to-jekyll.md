@@ -2,7 +2,7 @@
 layout: post
 date: 2014-03-03
 title:  Welcome to Jekyll!
-categories: jekyll
+categories: mycategory
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

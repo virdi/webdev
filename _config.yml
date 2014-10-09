@@ -1,8 +1,8 @@
 # Title, decription, tagline and URL for your site
 # Can be used in your theme by calling 'site.title' and so on
-title: Field Book
-description: Some description goes here
-tagline: a journal of experiences
+title: mlvirdi.com
+description: Makhan Virdi
+tagline: blogs about design, technology, art
 url: localhost:4000
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
@@ -18,7 +18,8 @@ owner:
   twitter: akashwani
 
 # general setting for Jekyll
-googleAnalytics: UA-464187-1
+#googleAnalytics: UA-464187-1
+google_analytics_id: UA-464187-1
 
 # _config.build.yml overwrites these options when you run `gulp build`
 # Enables future posts (posts with dates in the future) and drafts
@@ -42,8 +43,9 @@ markdown: redcarpet
   # extensions: ['fenced_code_blocks', 'smart']
 highlighter: true
 
+
+# Archive: '/archive'
+# Contact: '/contact'
+# Feed: '/atom.xml'
 pages_list:       
   About: '/about'
-  Archive: '/archive'
-  Contact: '/contact'
-  Feed: '/atom.xml'

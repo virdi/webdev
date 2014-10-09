@@ -155,7 +155,8 @@ gulp.task('doctor', $.shell.task('jekyll doctor'));
 // Copies over images and .xml/.txt files to the distribution folder
 gulp.task('copy', function () {
     // Each var is for different kinds of files/folders
-    var xmlandtxt = gulp.src(['src/*.txt', 'src/*.xml'])
+    //var xmlandtxt = gulp.src(['src/*.txt', 'src/*.xml'])
+    var xmlandtxt = gulp.src(['src/*.txt','serve/*.xml'])
         .pipe(gulp.dest('site'));
     var images = gulp.src('src/assets/images/**/*')
         .pipe(gulp.dest('site/assets/images'));

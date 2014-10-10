@@ -43,9 +43,8 @@ markdown: redcarpet
   # extensions: ['fenced_code_blocks', 'smart']
 highlighter: true
 
-
-# Archive: '/archive'
-# Contact: '/contact'
-# Feed: '/atom.xml'
 pages_list:       
   About: '/about'
+  Archive: '/archive'
+  Contact: '/contact'
+  Feed: '/atom.xml'

@@ -8,6 +8,21 @@ The main SCSS file for everything, yep
   border-bottom: 1px solid #eee;
   border-top: 5px solid #424242; }
 
+.recent-posts-header {
+  margin-bottom: 0;
+  font-size: 24px; }
+
+#recent-posts {
+  padding-top: 0; }
+
+#recent-posts, #recent-projects {
+  width: 50%;
+  float: left; }
+
+ul.archive {
+  list-style-type: none;
+  margin-left: 0px; }
+
 /**
  * Reset some basic elements
  */

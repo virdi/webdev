@@ -8,5 +8,3 @@ title: Archive
 {% for post in site.posts %}
   * {{ post.date | date: "%b %-d, %Y" }} &raquo; [ {{ post.title }} ]({{ post.url }})
 {% endfor %}
-
-[//]: # (    * {{ post.date | date: "%b %-d, %Y" }} &raquo; [ {{ post.title }} ]({{ post.url }})   )
